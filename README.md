@@ -1,7 +1,6 @@
 spring-mvc-bootstrap-angularjs-starter
 ======================================
- 
-The purpose of this is to serve as a project base that has the following things built in :
+ The define purpose of this is to serve as a project base that has the following things built in :
 * Maven project structure and configuration
 * Spring MVC and default mappings
 * Bootstrap resources and starter page
