@@ -1,7 +1,7 @@
 spring-mvc-bootstrap-angularjs-starter
 ======================================
-
-The purpose of this is to serve as a project base that has the following things built in:
+ 
+The purpose of this is to serve as a project base that has the following things built in :
 * Maven project structure and configuration
 * Spring MVC and default mappings
 * Bootstrap resources and starter page
@@ -25,8 +25,7 @@ Maven is configured to compile for JDK7 so make sure that you have your `JAVA_HO
 
 Let's get this thing running:
 
-```
-mvn jetty:run
+```mvn jetty:run
 ```
 
 The root of all configuration starts in the `src/main/webapp/WEB-INF/web.xml` file.  The web.xml uses the `ContextLoaderListener` to initialize the Spring application context via `@Configuration` annotation scanning (the `contextClass` and `contextConfigLocation` context-params).  In this case, the web.xml's `contextConfigLocation` context-param directs the `ContextLoaderListener` to load the main/parent application context in the annotated class `com.willvuong.bootstrapper.config.AppConfiguration`. 
